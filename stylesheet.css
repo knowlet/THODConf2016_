@@ -1,0 +1,78 @@
+body {
+	color: #000;
+	background-color: #0a0a0a;
+}
+
+[role="cover-background-image"] {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+    opacity: .8;
+    z-index: 0;
+}
+
+.btn.gray { color: #555; }
+
+.text-large { font-size: 1.5em; }
+
+.titlebox { background-color: #d8d8d8; display: table; margin: 0 auto; padding: 10px 20px; }
+.titlebox h2 { margin-top: 5px; margin-bottom: 5px; text-align: center; }
+.sfont { font-family: 'Fredericka the Great', cursive; }
+.blank { padding-top: 100px; }
+
+.bigtitle { font-size: 52px; margin-top: 30px; margin-bottom: 30px; }
+
+section { margin-top: 50px; margin-bottom: 50px; }
+
+/** Home **/
+#home {
+	position: relative;
+	z-index: 100;
+	background: url(images/big-logo.png) no-repeat 100%;
+	width: 500px;
+	height: 700px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 65px;
+	padding-top: 480px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+}
+
+.navbar { background-color: rgba(255,255,255,0.8); z-index: 1000; width: 100%; position: fixed; }
+
+.navbar ul.nav { display: table; margin: 0 auto; padding-top: 10pt; padding-bottom: 10pt; }
+
+.navbar ul.nav li { padding-left: 8pt; padding-right: 8pt; }
+
+#program { position: relative; z-index: 100; width: 1000px; padding-top: 90px; margin-left: auto; margin-right: auto; }
+#program .timetable { margin-top: 10px; margin-bottom: 10px; }
+#program .timetable table { width: 100%; border-collapse: separate; border-spacing: 5px; }
+#program .timetable th { color: #fff; font-size: 24px; text-align: center; }
+#program .timetable td { background-color: #d8d8d8; width: 250px; text-align: center; font-size: 20px; padding: 2em 0; font-family: 'Fredericka the Great', cursive; }
+#program .timetable [role="time-col"] { width: 150px; background-color: transparent; color: #fff; }
+#program .timetable .avatar { width: 80px; height: 80px; display: inline-block; margin-right: 10px; border-radius: 50%; vertical-align: middle; overflow: hidden; }
+#program .timetable .avatar img { width: 100%; height: 100%; }
+#program .timetable .data { height: 80px; display: inline-block; vertical-align: middle; }
+#program .timetable .data .title { line-height: 40px; }
+#program .timetable .data .speaker { line-height: 40px; }
+
+#transport { position: relative; z-index: 100; width: 1000px; padding-top: 90px; margin-left: auto; margin-right: auto; }
+#transport h2 { color: #fff; }
+
+#call_for_paper { position: relative; z-index: 100; width: 1000px; padding-top: 90px; margin-left: auto; margin-right: auto; }
+#call_for_paper h2 { color: #fff; }
+#call_for_paper .content { width: 600px; min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; }
+
+#sponsor { position: relative; z-index: 100; width: 1000px; padding-top: 90px; margin-left: auto; margin-right: auto; }
+#sponsor h2 { color: #fff; }
+#sponsor .content { width: 600px; min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; }
+
+#staff { position: relative; z-index: 100; width: 1000px; padding-top: 90px; margin-left: auto; margin-right: auto; }
+#staff h2 { color: #fff; }
+#staff .content { width: 600px; min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; }
+
