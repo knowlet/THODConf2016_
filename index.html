@@ -25,6 +25,7 @@
 	<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link href="stylesheet.css" rel="stylesheet">
 </head>
 
@@ -32,18 +33,19 @@
 
 	<img role="cover-background-image" src="images/background.jpg" />
 
-	<nav class="navbar navbar-default">
-		<ul class="nav nav-pills">
-		  <li role="presentation"><a class="btn gray text-large animate" href="#top">首頁</a></li>
-		  <li role="presentation"><a class="btn gray text-large animate" href="#program">議程</a></li>
-		  <li role="presentation"><a class="btn gray text-large animate" href="#transport">交通資訊</a></li>
-		  <li role="presentation"><a class="btn gray text-large animate" href="#call_for_paper">徵稿資訊</a></li>
-		  <li role="presentation"><a class="btn gray text-large animate" href="#sponsor">研討會贊助</a></li>
-		  <li role="presentation"><a class="btn gray text-large animate" href="#staff">籌備團隊</a></li>
-		</ul>
-	</nav>
-
-	<div class="blank" id="top"></div>
+	<header>
+		<nav class="navbar navbar-default">
+			<ul class="nav nav-pills">
+			  <li role="presentation"><a class="btn gray text-large animate" href="#top">首頁</a></li>
+			  <li role="presentation"><a class="btn gray text-large animate" href="#program">議程</a></li>
+			  <li role="presentation"><a class="btn gray text-large animate" href="#transport">交通資訊</a></li>
+			  <li role="presentation"><a class="btn gray text-large animate" href="#call_for_paper">徵稿資訊</a></li>
+			  <li role="presentation"><a class="btn gray text-large animate" href="#sponsor">研討會贊助</a></li>
+			  <li role="presentation"><a class="btn gray text-large animate" href="#staff">籌備團隊</a></li>
+			</ul>
+		</nav>
+		<div class="blank" id="top"></div>
+	</header>
 
 	<section id="home">TDoH Conf 2016</section>
 
@@ -119,19 +121,65 @@
 	<section id="sponsor">
 		<h2 class="sfont bigtitle">Sponsor</h2>
 		<div class="content">
-
+			<div class="decoration-top"></div>
+			<h3>鑽石贊助</h3>
+			<div class="row">
+				<div class="box">
+					<a href="http://tdohacker.org/" target="_blank" title="TDOH"><img src="images/logo.png" /></a>
+				</div>
+				<div class="box"></div>
+			</div>
+			<h3>白金贊助</h3>
+			<div class="row">
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+			<h3>青銅贊助</h3>
+			<div class="row">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+			<div class="decoration-btm"></div>
 		</div>
 	</section>
 
 	<section id="staff">
 		<h2 class="sfont bigtitle">Staff Collection</h2>
 		<div class="content">
-
+			<h3 class="position">總召</h3>
+			<div class="row">
+				<div class="avator" title="TDOH"><img src="images/logo.png" /></div>
+			</div>
+			<div class="spacing"></div>
+			<h3 class="position">行政組</h3>
+			<div class="row">
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+			</div>
+			<div class="spacing"></div>
+			<h3 class="position">場務組</h3>
+			<div class="row">
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+				<div class="avator"></div>
+			</div>
 		</div>
 	</section>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<script src="tdoh.js"></script>
 </body>
 
