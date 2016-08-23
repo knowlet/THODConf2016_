@@ -101,6 +101,7 @@ section { margin-top: 50px; margin-bottom: 50px; }
 .navbar ul.nav li { padding-left: 8pt; padding-right: 8pt; }
 
 #program { position: relative; z-index: 100; width: 1000px; padding-top: 90px; margin-left: auto; margin-right: auto; }
+#program h2 { color: #fff; text-align: center; }
 #program .timetable { margin-top: 10px; margin-bottom: 10px; }
 #program .timetable table { width: 100%; border-collapse: separate; border-spacing: 5px; }
 #program .timetable th { color: #fff; font-size: 24px; text-align: center; }
