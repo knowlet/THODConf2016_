@@ -8,6 +8,17 @@ jQuery(document).ready(function(){
 		return false;
 	});
 
+	jQuery('.navbar nav[role="bugar-button"]').click(function(){
+		if( jQuery(this).attr('class') == 'unactive' ){
+			jQuery(this).prop('class', 'active');
+			jQuery('.navbar .nav').slideDown('slow');
+		} else {
+			jQuery(this).prop('class', 'unactive');
+			jQuery('.navbar .nav').removeClass('active');
+			jQuery('.navbar .nav').slideUp('slow');
+		}
+	});
+
 	jQuery('.tooltip-enable').tooltip({
 		track: true
 	});
