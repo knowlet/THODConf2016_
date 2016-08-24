@@ -263,7 +263,6 @@ footer .copyright { position: relative; z-index: 100; color: #000; text-align: c
 	#home { height: 450px; }
 	#home h2 { font-size: 40px; bottom: 55px; }
 
-	.white-popup .data .data-description { max-height: 300px; }
 	.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content { max-width: 80%; }
 
 	#sponsor .decoration-top { max-width: 90%; height: 90px; }
