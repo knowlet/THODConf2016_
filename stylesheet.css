@@ -153,12 +153,12 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #program .timetable { margin-top: 10pt; margin-bottom: 10pt; }
 #program .timetable table { width: 100%; border-collapse: separate; border-spacing: 5px; }
 #program .timetable th { color: #fff; font-size: 24px; text-align: center; }
-#program .timetable td { background-color: #d8d8d8; width: 250px; text-align: center; font-size: 18px; padding: 2em 0; font-family: 'Fredericka the Great', cursive; }
+#program .timetable td { background-color: #d8d8d8; width: 20%; text-align: center; font-size: 18px; padding: 2em 0; font-family: 'Fredericka the Great', cursive; }
 #program .timetable td > table td { padding: 5px 0; }
-#program .timetable [role="time-col"] { width: 200px; background-color: transparent; color: #fff; }
-#program .timetable .avatar { width: 80px; height: 80px; display: inline-block; margin-right: 10pt; border-radius: 50%; vertical-align: middle; overflow: hidden; }
+#program .timetable [role="time-col"] { width: 20%; background-color: transparent; color: #fff; }
+#program .timetable .avatar { width: 60px; height: 60px; display: inline-block; margin-right: 10pt; border-radius: 50%; vertical-align: middle; overflow: hidden; }
 #program .timetable .avatar img { width: 100%; height: 100%; }
-#program .timetable .data { height: 80px; display: inline-block; vertical-align: middle; }
+#program .timetable .data { height: 60px; display: inline-block; vertical-align: middle; }
 #program .timetable .data .title { line-height: 40px; }
 #program .timetable .data .speaker { line-height: 40px; }
 
@@ -169,7 +169,7 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 
 #call_for_paper { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
 #call_for_paper h2 { color: #fff; text-align: center; }
-#call_for_paper .content { width: 100%; min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; padding: 10px 20px; }
+#call_for_paper .content { min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; padding: 10px 20px; }
 #call_for_paper h3 { font-size: 20px; }
 #call_for_paper .content ol > li { margin-top: 15px; margin-bottom: 15px; }
 #call_for_paper .content ol > li > ul > li { margin-top: 15px; margin-bottom: 15px; }
@@ -177,7 +177,7 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 
 #provide { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
 #provide h2 { color: #fff; text-align: center; }
-#provide .content { width: 100%; min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; padding: 10px 20px; }
+#provide .content { min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; padding: 10px 20px; }
 #provide h3 { font-size: 20px; }
 #provide .content ol > li { margin-top: 15px; margin-bottom: 15px; }
 #provide .content ol > li > ul > li { margin-top: 15px; margin-bottom: 15px; }
@@ -185,7 +185,7 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 
 #personal { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
 #personal h2 { color: #fff; text-align: center; }
-#personal .content { width: 100%; min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; padding: 10px 20px; }
+#personal .content { min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; padding: 10px 20px; }
 #personal h3 { font-size: 20px; }
 #personal .content ol > li { margin-top: 15px; margin-bottom: 15px; }
 #personal .content ol > li > ul > li { margin-top: 15px; margin-bottom: 15px; }
@@ -193,7 +193,7 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 
 #sponsor { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
 #sponsor h2 { color: #fff; text-align: center; display: none; }
-#sponsor .content { width: 800px; max-width: 100%; min-height: 500px; margin-left: auto; margin-right: auto; text-align: center; }
+#sponsor .content { max-width: 100%; min-height: 500px; margin-left: auto; margin-right: auto; text-align: center; }
 #sponsor .decoration-top {
 	background-image: url(images/decoration.png);
 	background-repeat: no-repeat;
@@ -285,6 +285,10 @@ footer .copyright { position: relative; z-index: 100; color: #000; text-align: c
 
 	#call_for_paper { padding-top: 50px; }
 	#call_for_paper .content { max-width: 90%; }
+
+	#provide .content { max-width: 90%; }
+
+	#personal .content { max-width: 90%; }
 
 	#sponsor { padding-top: 50px; }
 	#sponsor .decoration-top { max-width: 90%; height: 180px; }
