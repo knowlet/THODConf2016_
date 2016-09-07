@@ -5,9 +5,9 @@ jQuery(document).ready(function(){
 			scrollTop: jQuery( jQuery(this).attr('href') ).offset().top
 		}, 500);
 
-		jQuery('.navbar nav[role="bugar-button"]').prop('class', 'unactive');
-		jQuery('.navbar .nav').removeClass('active');
-		jQuery('.navbar .nav').slideUp('slow');
+		// jQuery('.navbar nav[role="bugar-button"]').prop('class', 'unactive');
+		// jQuery('.navbar .nav').removeClass('active');
+		// jQuery('.navbar .nav').slideUp('slow');
 
 		return false;
 	});

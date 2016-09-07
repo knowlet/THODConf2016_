@@ -171,6 +171,7 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #call_for_paper h2 { color: #fff; text-align: center; }
 #call_for_paper .content { min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; padding: 10px 20px; }
 #call_for_paper h3 { font-size: 20px; }
+#call_for_paper blockquote { border-left: 3px solid gray; background-color: #cdcdcd; padding: 5px; }
 #call_for_paper .content ol > li { margin-top: 15px; margin-bottom: 15px; }
 #call_for_paper .content ol > li > ul > li { margin-top: 15px; margin-bottom: 15px; }
 #call_for_paper .content ol > li > ul > li li { margin-top: 5px; margin-bottom: 5px; }
