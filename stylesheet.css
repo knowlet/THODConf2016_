@@ -175,6 +175,22 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #call_for_paper .content ol > li > ul > li { margin-top: 15px; margin-bottom: 15px; }
 #call_for_paper .content ol > li > ul > li li { margin-top: 5px; margin-bottom: 5px; }
 
+#provide { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
+#provide h2 { color: #fff; text-align: center; }
+#provide .content { width: 100%; min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; padding: 10px 20px; }
+#provide h3 { font-size: 20px; }
+#provide .content ol > li { margin-top: 15px; margin-bottom: 15px; }
+#provide .content ol > li > ul > li { margin-top: 15px; margin-bottom: 15px; }
+#provide .content ol > li > ul > li li { margin-top: 5px; margin-bottom: 5px; }
+
+#personal { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
+#personal h2 { color: #fff; text-align: center; }
+#personal .content { width: 100%; min-height: 500px; background-color: #d8d8d8; margin-left: auto; margin-right: auto; padding: 10px 20px; }
+#personal h3 { font-size: 20px; }
+#personal .content ol > li { margin-top: 15px; margin-bottom: 15px; }
+#personal .content ol > li > ul > li { margin-top: 15px; margin-bottom: 15px; }
+#personal .content ol > li > ul > li li { margin-top: 5px; margin-bottom: 5px; }
+
 #sponsor { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
 #sponsor h2 { color: #fff; text-align: center; display: none; }
 #sponsor .content { width: 800px; max-width: 100%; min-height: 500px; margin-left: auto; margin-right: auto; text-align: center; }
