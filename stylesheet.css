@@ -1,6 +1,8 @@
-body { color: #000; background-color: #0a0a0a; margin: 0; line-height: 20px; font-family: 'Noto Sans', sans-serif; }
+body { color: #000; background-color: #0a0a0a; margin: 0; font-family: 'Noto Sans', sans-serif; }
 
 img { vertical-align: initial; }
+
+p { line-height: 20px; }
 
 [role="cover-background-image"] {
 	position: fixed;
