@@ -27,6 +27,7 @@ jQuery(document).ready(function(){
 		track: true
 	});
 
+	/*
 	jQuery('#program table').magnificPopup({
 		delegate: 'td.link',
 		mainClass: 'mfp-zoom-in',
@@ -46,4 +47,5 @@ jQuery(document).ready(function(){
 		},
 		midClick: true 
 	});
+	//*/
 });
